@@ -14,7 +14,7 @@ int fact(int num) // to redeclare as long long it would be long long int fact(in
 {
     if(num <= 1)
     {
-        return 1;
+        return num;
     }
     return num * fact(num - 1);
 }
